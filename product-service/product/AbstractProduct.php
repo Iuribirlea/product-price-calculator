@@ -72,19 +72,3 @@ abstract class Product implements ProductInterface
     abstract public function getDetails(): string;
 }
 
-
-
-/*// Example usage:
-
-$calculator = CartCalculator::getInstance();
-
-$tv = new TV(50000, 'Samsung', 55);
-$phone = new Phone(10000, 'Apple', 6.1);
-$pan = new Pan(2000, 'Tefal', 30);
-
-$calculator->addProduct($tv, 10);
-$calculator->addProduct($phone, 2);
-$calculator->addProduct($pan, 3);
-
-$totalPrice = $calculator->calculateTotalPrice();
-echo "Total Price: $totalPrice";*/
